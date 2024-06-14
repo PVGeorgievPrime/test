@@ -126,10 +126,10 @@ Example:
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>liquidtools.example.com</string>
+        <string>liquidtools.primeholding.com</string>
         <key>CFBundleURLSchemes</key>
         <array>
-        <string>examplescheme</string>
+        <string>primeholdingscheme</string>
         </array>
         </dict>
     </array>
@@ -139,22 +139,22 @@ You can test the deep-links on iOS simulator by executing the following command
 
 Production
 ```
-xcrun simctl openurl booted examplescheme://liquidtools.example.com/deepLinks/1
+xcrun simctl openurl booted primeholdingscheme://liquidtools.primeholding.com/deepLinks/1
 ```
 
 UAT
 ```
-xcrun simctl openurl booted exampleuatscheme://liquidtoolsuat.example.com/deepLinks/1
+xcrun simctl openurl booted primeholdinguatscheme://liquidtoolsuat.primeholding.com/deepLinks/1
 ```
 
 SIT
 ```
-xcrun simctl openurl booted examplesitscheme://liquidtoolssit.example.com/deepLinks/1
+xcrun simctl openurl booted primeholdingsitscheme://liquidtoolssit.primeholding.com/deepLinks/1
 ```
 
 Development
 ```
-xcrun simctl openurl booted exampledevscheme://liquidtoolsdevelopment.example.com/deepLinks/1
+xcrun simctl openurl booted primeholdingdevscheme://liquidtoolsdevelopment.primeholding.com/deepLinks/1
 ```
 
 `Android`

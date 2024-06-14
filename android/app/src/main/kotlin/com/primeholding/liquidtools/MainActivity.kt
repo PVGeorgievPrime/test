@@ -1,4 +1,4 @@
-package com.example.liquidtools
+package com.primeholding.liquidtools
 
 import io.flutter.embedding.android.FlutterActivity
 

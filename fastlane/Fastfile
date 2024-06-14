@@ -13,7 +13,7 @@ IOS_P8_AUTH_KEY_ISSUER_ID = ''
 PROJECT_DIRECTORY_PATH='.'
 
 # The url of the distribution repository (without http(s) prefix)
-DISTRIBUTION_REPOSITORY_URL='github.com/example/liquidtools-distribuition.git'
+DISTRIBUTION_REPOSITORY_URL='github.com/primeholding/liquidtools-distribuition.git'
 
 # List of available environments
 environments = ['development', 'sit', 'uat', 'production']
@@ -36,10 +36,10 @@ target_map = {
 
 # Mapping of flavor to flavor specific bundle id
 bundle_id_map = {
-    'development' => 'com.example.liquidtools.development',
-    'sit' => 'com.example.liquidtools.sit',
-    'uat' => 'com.example.liquidtools.uat',
-    'production' => 'com.example.liquidtools'
+    'development' => 'com.primeholding.liquidtools.development',
+    'sit' => 'com.primeholding.liquidtools.sit',
+    'uat' => 'com.primeholding.liquidtools.uat',
+    'production' => 'com.primeholding.liquidtools'
 }
 
 # Mapping of flavor to name of the provisioning profile for that flavor.
