@@ -57,7 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0008B3029FD6B4C2150AE50E /* environments */ = {isa = PBXFileReference; includeInIndex = 1; name = environments; path = environments/; sourceTree = "<group>"; };
+		0008B3029FD6B4C2150AE50E /* environments */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = environments; path = environments/; sourceTree = "<group>"; };
 		067F6060AF4B966D073CF020 /* productionLaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = productionLaunchScreen.storyboard; path = Runner/productionLaunchScreen.storyboard; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
@@ -603,6 +603,180 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-production";
+		};
+		2C4AFBEF2C1C883E00601F5F /* Debug-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-development";
+		};
+		2C4AFBF02C1C883E00601F5F /* Profile-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-development";
+		};
+		2C4AFBF12C1C883E00601F5F /* Release-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-development";
+		};
+		2C4AFBF22C1C883E00601F5F /* Debug-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-sit";
+		};
+		2C4AFBF32C1C883E00601F5F /* Profile-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-sit";
+		};
+		2C4AFBF42C1C883E00601F5F /* Release-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-sit";
+		};
+		2C4AFBF52C1C883E00601F5F /* Debug-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-uat";
+		};
+		2C4AFBF62C1C883E00601F5F /* Profile-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-uat";
+		};
+		2C4AFBF72C1C883E00601F5F /* Release-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-uat";
+		};
+		2C4AFBF82C1C883E00601F5F /* Debug-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-production";
+		};
+		2C4AFBF92C1C883E00601F5F /* Profile-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-production";
+		};
+		2C4AFBFA2C1C883E00601F5F /* Release-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZNE622G954;
+				PRODUCT_NAME = Runner;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Liquid Tools Distribution";
+			};
+			name = "Release-production";
+		};
+		2C4AFBFB2C1C883E00601F5F /* Debug-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-development";
+		};
+		2C4AFBFC2C1C883E00601F5F /* Profile-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-development";
+		};
+		2C4AFBFD2C1C883E00601F5F /* Release-development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Release-development";
+		};
+		2C4AFBFE2C1C883E00601F5F /* Debug-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-sit";
+		};
+		2C4AFBFF2C1C883E00601F5F /* Profile-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-sit";
+		};
+		2C4AFC002C1C883E00601F5F /* Release-sit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Release-sit";
+		};
+		2C4AFC012C1C883E00601F5F /* Debug-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-uat";
+		};
+		2C4AFC022C1C883E00601F5F /* Profile-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-uat";
+		};
+		2C4AFC032C1C883E00601F5F /* Release-uat */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Release-uat";
+		};
+		2C4AFC042C1C883E00601F5F /* Debug-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-production";
+		};
+		2C4AFC052C1C883E00601F5F /* Profile-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-production";
+		};
+		2C4AFC062C1C883E00601F5F /* Release-production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
 			};
 			name = "Release-production";
 		};
@@ -1530,6 +1704,18 @@
 				331C8088294A63A400263BE5 /* Debug */,
 				331C8089294A63A400263BE5 /* Release */,
 				331C808A294A63A400263BE5 /* Profile */,
+				2C4AFBFB2C1C883E00601F5F /* Debug-development */,
+				2C4AFBFC2C1C883E00601F5F /* Profile-development */,
+				2C4AFBFD2C1C883E00601F5F /* Release-development */,
+				2C4AFBFE2C1C883E00601F5F /* Debug-sit */,
+				2C4AFBFF2C1C883E00601F5F /* Profile-sit */,
+				2C4AFC002C1C883E00601F5F /* Release-sit */,
+				2C4AFC012C1C883E00601F5F /* Debug-uat */,
+				2C4AFC022C1C883E00601F5F /* Profile-uat */,
+				2C4AFC032C1C883E00601F5F /* Release-uat */,
+				2C4AFC042C1C883E00601F5F /* Debug-production */,
+				2C4AFC052C1C883E00601F5F /* Profile-production */,
+				2C4AFC062C1C883E00601F5F /* Release-production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1562,6 +1748,18 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
+				2C4AFBEF2C1C883E00601F5F /* Debug-development */,
+				2C4AFBF02C1C883E00601F5F /* Profile-development */,
+				2C4AFBF12C1C883E00601F5F /* Release-development */,
+				2C4AFBF22C1C883E00601F5F /* Debug-sit */,
+				2C4AFBF32C1C883E00601F5F /* Profile-sit */,
+				2C4AFBF42C1C883E00601F5F /* Release-sit */,
+				2C4AFBF52C1C883E00601F5F /* Debug-uat */,
+				2C4AFBF62C1C883E00601F5F /* Profile-uat */,
+				2C4AFBF72C1C883E00601F5F /* Release-uat */,
+				2C4AFBF82C1C883E00601F5F /* Debug-production */,
+				2C4AFBF92C1C883E00601F5F /* Profile-production */,
+				2C4AFBFA2C1C883E00601F5F /* Release-production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
